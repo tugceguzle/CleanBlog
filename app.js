@@ -6,7 +6,7 @@ const pageController = require('./controller/pageController');
 require('dotenv').config()
 const app = express();
 
-mongoose.connect(`mongodb+srv://tugce:${process.env.MONGO_PASSWORD}@cluster0.ogaihcr.mongodb.net/?retryWrites=true&w=majority`);
+mongoose.connect(`mongodb+srv://tugce:${process.env.MONGO_PASSWORD}@cluster0.ixsvn9z.mongodb.net/?retryWrites=true&w=majority`);
 
 app.set("view engine", "ejs");
 
